@@ -80,6 +80,13 @@ to things like; version control, unit-testing and documentation.
 At the end we will have a more free form discussion (all be it rather one sided)
 about programming concepts and tools for the future.
 
+Dedication
+----------
+
+This book is dedicated to the love of my life, Elysha. **Code for Thought** is
+designed to help her and others like her to learn to program and better understand
+the second love of my life.
+
 Table of Contents
 =================
 
