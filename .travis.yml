@@ -9,4 +9,6 @@ python:
 install: pip install -r requirements.txt --use-mirrors
 
 # command to run tests, e.g. python setup.py test
-script: cd docs/ && make doctest
+script: 
+  - cd docs/ && make linkcheck
+  - cd docs/ && make doctest
