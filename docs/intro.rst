@@ -30,12 +30,12 @@ something else at any point. Personally I use Emacs_ which is a great editor
 that has a long tradition in the programming world, although people say its
 learning curve is quite steep. Many others use Vim_ but there are many others
 and if it comes down to it windows notepad will work fine as well... However if
-you want to go with something more like this then give Notepad Plus Plus_ a try.
+you want to go with something more like this then give NotepadPlusPlus_ a try.
 
 This can all be done in pure windows obviously however programming in *Linux*
 is just much nicer. If you wish to program in windows only (without Cygwin_)
 you will need everything bar the *POSIX* environment and a text editor such as,
-at least, Notepad Plus Plus_ for editing code and be able to use the command prompt to
+at least, NotepadPlusPlus_ for editing code and be able to use the command prompt to
 run your code. There may be mention of tools that are different to use or non
 existant on windows. Most likely in these cases there are alternatives that
 should not be too hard to find with a good Google_.
@@ -48,7 +48,7 @@ should not be too hard to find with a good Google_.
 .. _Pip: https://pypi.python.org/pypi/pip/1.4.1
 .. _Emacs: http://www.gnu.org/software/emacs/
 .. _Vim: http://www.vim.org/
-.. _Notepad Plus Plus: http://notepad-plus-plus.org/
+.. _NotepadPlusPlus: http://notepad-plus-plus.org/
 .. _Google: http://www.google.com
 
 Structure
