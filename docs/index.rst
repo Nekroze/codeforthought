@@ -5,23 +5,23 @@ This, that I loosely call a book, is mean't to guide your first steps into the
 world of programming and abstracting thoughts and reality into easy to
 understand code.
 
-While *Code for Thought* is designed for those who have never programmed, it is
+While **Code for Thought** is designed for those who have never programmed, it is
 not exactly designed for the computer illiterate. There are some assumptions
 made by this book that I should get out of the way before we get started.
 
 Requirements
 ------------
 
-First and foremost we recomend and assume a **POSIX** based environment. This
-means either a **Linux** operating system, like Ubuntu_ which could be
+First and foremost we recomend and assume a *POSIX* based environment. This
+means either a *Linux* operating system, like Ubuntu_ which could be
 installed as a virtual machine like VirtualBox_. Alternatively on windows you
-could install Cygwin_, an easy way to get a **POSIX** based environment in
+could install Cygwin_, an easy way to get a *POSIX* based environment in
 windows for very few tradeoffs.
 
 There are many many guides on the internet for how to setup these things, many
 of which explain it all better then I could in the scope of this book.
 
-Ontop of some kind of **POSIX** based environment you are going to need to
+Ontop of some kind of *POSIX* based environment you are going to need to
 install Python_ along with the packages called Setuptools_ and Pip_. Python_
 will be the language we will be learning how to code in. It is a very nice to
 read and concise language that is perfect for begginers learning the basic
@@ -49,7 +49,7 @@ you want to go with something more like this then give Notepad++_ a try.
 Structure
 ---------
 
-*Code for Thought* will take you through learning how to write your own code
+**Code for Thought** will take you through learning how to write your own code
 from start to finish and around. By the end of this you will understand the
 major concepts behind programming and the tools around it that can help make
 your code better. You will learn how to test your code and make sure it works,
