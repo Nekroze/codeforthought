@@ -68,7 +68,17 @@ This book will move slowly from concept to concept, focusing not just on
 teaching you some information about programming but teaching you how to teach
 yourself to program.
 
-We start with ...
+We start with an introduction to the basic concepts of programming with 
+interactive examples. Then we move onto abstracting ideas into functions. Then
+on to data structures. With these basics we will begin to construct simple
+programs you can test out and tinker with. Then we will use example programs
+and code to provide real life usage of the advanced concepts you will be
+learning. As the projects we work with grow in size we will introduce new 
+tools that can greatly help with programming. These include but are not limited
+to things like; version control, unit-testing and documentation.
+
+At the end we will have a more free form discussion (all be it rather one sided)
+about programming concepts and tools for the future.
 
 Table of Contents
 =================
