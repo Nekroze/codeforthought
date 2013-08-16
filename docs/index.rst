@@ -44,7 +44,7 @@ you want to go with something more like this then give Notepad++_ a try.
 .. _Pip: https://pypi.python.org/pypi/pip/1.4.1
 .. _Emacs: http://www.gnu.org/software/emacs/
 .. _Vim: http://www.vim.org/
-.. _Notepadd++: http://notepad-plus-plus.org/
+.. _Notepad++: http://notepad-plus-plus.org/
 
 Structure
 ---------
