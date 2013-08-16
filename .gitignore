@@ -8,6 +8,9 @@
 *.egg-info
 dist
 build
+_build
+_static
+_templates
 eggs
 parts
 bin
