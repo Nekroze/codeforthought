@@ -13,7 +13,7 @@ Requirements
 ------------
 
 First and foremost we recomend and assume a *POSIX* based environment. This
-means either a *Linux* operating system, like Ubuntu_ which could be
+means either a *Linux* operating system, like Xubuntu_ which could be
 installed as a virtual machine like VirtualBox_. Alternatively on windows you
 could install Cygwin_, an easy way to get a *POSIX* based environment in
 windows for very few tradeoffs.
@@ -36,7 +36,7 @@ learning curve is quite steep. Many others use Vim_ but there are many others
 and if it comes down to it windows notepad will work fine as well... However if
 you want to go with something more like this then give Notepad++_ a try.
 
-.. _Ubuntu: http://www.ubuntu.com/
+.. _Xubuntu: http://xubuntu.org/
 .. _VirtualBox: https://www.virtualbox.org/
 .. _Cygwin: http://www.cygwin.com/
 .. _Python: http://python.org/
