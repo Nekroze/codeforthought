@@ -84,7 +84,7 @@ Dedication
 ----------
 
 This book is dedicated to the love of my life, Elysha. **Code for Thought** is
-designed to help her and others like her to learn to program and better understand
+designed to help her and others like her to learn code and better understand
 the second love of my life.
 
 Table of Contents
