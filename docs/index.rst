@@ -6,6 +6,11 @@
 Welcome to Code for Thought's documentation!
 ============================================
 
+.. doctest:
+
+   >>> 1+2
+   3
+
 Contents:
 
 .. toctree::
