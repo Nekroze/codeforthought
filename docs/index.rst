@@ -36,6 +36,14 @@ learning curve is quite steep. Many others use Vim_ but there are many others
 and if it comes down to it windows notepad will work fine as well... However if
 you want to go with something more like this then give Notepad++_ a try.
 
+This can all be done in pure windows obviously however programming in *Linux*
+is just much nicer. If you wish to program in windows only (without Cygwin_)
+you will need everything bar the *POSIX* environment and a text editor such as,
+at least, Notepad++_ for editing code and be able to use the command prompt to
+run your code. There may be mention of tools that are different to use or non
+existant on windows. Most likely in these cases there are alternatives that
+should not be too hard to find with a good Google_.
+
 .. _Xubuntu: http://xubuntu.org/
 .. _VirtualBox: https://www.virtualbox.org/
 .. _Cygwin: http://www.cygwin.com/
@@ -45,6 +53,7 @@ you want to go with something more like this then give Notepad++_ a try.
 .. _Emacs: http://www.gnu.org/software/emacs/
 .. _Vim: http://www.vim.org/
 .. _Notepad++: http://notepad-plus-plus.org/
+.. _Google: http://www.google.com
 
 Structure
 ---------
