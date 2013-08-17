@@ -11,6 +11,7 @@ Table of Contents
 
 Chapters:
 ---------
+
 .. toctree::
    :maxdepth: 2
    :numbered:
@@ -19,7 +20,8 @@ Chapters:
 
 Extras:
 -------
-.. toctee::
+
+.. toctree::
    :maxdepth: 2
 
    glossary
