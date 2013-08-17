@@ -7,4 +7,4 @@ This is merely the source repository. Head over to
 http://code-for-thought.rtfd.org/ to view this project how it was
 designed. Also we routinely run a gambit of tests on the book and its
 included code examples which can be checked at
-[ravis-CI](https://travis-ci.org/Nekroze/codeforthought/builds).
+[Travis-CI](https://travis-ci.org/Nekroze/codeforthought/builds).
