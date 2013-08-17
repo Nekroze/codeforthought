@@ -9,10 +9,20 @@ understand code.
 Table of Contents
 =================
 
+Chapters:
+---------
 .. toctree::
    :maxdepth: 2
+   :numbered:
    
    intro
+
+Extras:
+-------
+.. toctee::
+   :maxdepth: 2
+
+   glossary
 
 Indices and tables
 ==================
