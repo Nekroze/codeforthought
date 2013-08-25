@@ -12,7 +12,7 @@ First and foremost we recomend and assume a :term:`POSIX` based environment.
 This means either a *Linux* operating system, like Xubuntu_ which could be
 installed as a virtual machine like VirtualBox_. Alternatively on windows you
 could install Cygwin_, an easy way to get a :term:`POSIX` based environment in
-windows for very few tradeoffs.
+windows for very few trade offs.
 
 There are many many guides on the internet for how to setup these things, many
 of which explain it all better then I could in the scope of this book.
