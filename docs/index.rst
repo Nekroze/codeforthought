@@ -7,10 +7,10 @@ understand code.
 
 
 Table of Contents
-=================
+-----------------
 
 Chapters:
----------
+~~~~~~~~~
 
 .. toctree::
    :maxdepth: 2
@@ -19,7 +19,7 @@ Chapters:
    intro
 
 Extras:
--------
+~~~~~~~
 
 .. toctree::
    :maxdepth: 2
@@ -27,7 +27,7 @@ Extras:
    glossary
 
 Indices and tables
-==================
+------------------
 
 * :ref:`genindex`
 * :ref:`modindex`
