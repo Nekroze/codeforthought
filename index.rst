@@ -17,6 +17,7 @@ Chapters:
    :numbered:
    
    chapter/intro
+   chapter/playground
 
 Extras:
 ~~~~~~~
