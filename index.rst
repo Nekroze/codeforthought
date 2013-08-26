@@ -16,7 +16,7 @@ Chapters:
    :maxdepth: 2
    :numbered:
    
-   intro
+   chapter/intro
 
 Extras:
 ~~~~~~~
