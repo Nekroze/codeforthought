@@ -35,18 +35,19 @@ try some simple math in our python interpreter:
 
 .. doctest::
 
-   >>> 1 + 1
-   2
-   >>> 1 * 1 * 20
-   20
-   >>> 1 * (1 * 20)
-   20
+   >>> 1 + 2
+   3
+   >>> 1 / 2 * 20
+   10.0
+   >>> 1 / (2 * 20)
+   0.025
 
 Great so we have written some simple, but boring, mathematical expressions in
 python! But the last two examples are a bit different. First, if you didn't
 already know, the symbol for multiplication in programming is the asterisk
-(`*`) character. But the last two examples are almost exactly the same except
-for the parenthesis around the `1 * 20` expression in the final one.
+(`*`) character and division is the forward slash (`/`) character. But the last
+two examples are almost exactly the same except for the parenthesis around the
+`1 * 20` expression in the final one.
 
 The reason for the parenthesis is to solve one of the largest problems in
 programming. OK well not specifically. One of the largest problems for new
@@ -62,4 +63,6 @@ what to do to get it right and being able to actually articulate and understand
 those commands ourselves. Remember, you may understand what you write today but
 if you come back in six months will it still make perfect sense?
 
-But we are getting ahead of ourselves a bit.
+But we are getting ahead of ourselves a bit. We use the parenthesis in the last
+one example above because we want to divide 1 by 40. Whereas in the second
+example we are dividing 1 by 2 and then multiplying the result of that by 20.
