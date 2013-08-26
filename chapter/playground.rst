@@ -19,6 +19,8 @@ or if you chose to install bpython_::
 
     $ bpython
 
+.. _bpython: http://bpython-interpreter.org/
+
 New kid on the block
 --------------------
 
@@ -29,14 +31,16 @@ The first piece of programming we will be learning is a simple expression.
 Expressions are chunks of code that do something and return results.
 
 There are a great many things you can do with expressions but for now lets just
-try some simple math in our python interpreter::
+try some simple math in our python interpreter:
 
-    >>> 1 + 1
-    2
-    >>> 1 + 1 * 20
-    40
-    >>> 1 + (1 * 20)
-    21
+.. doctest::
+
+   >>> 1 + 1
+   2
+   >>> 1 * 1 * 20
+   20
+   >>> 1 * (1 * 20)
+   20
 
 Great so we have written some simple, but boring, mathematical expressions in
 python! But the last two examples are a bit different. First, if you didn't
