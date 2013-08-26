@@ -152,4 +152,4 @@ doctest:
 	@echo "Testing of doctests in the sources finished, look at the " \
 	      "results in $(BUILDDIR)/doctest/output.txt."
 
-test: linkcheck doctest html
+test: linkcheck doctest html clean
