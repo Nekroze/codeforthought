@@ -88,17 +88,17 @@ Now you can make your changes locally.
 
    Or seperately:
 
-   I. Test web links::
+   1) Test web links::
 
-    $ make linkcheck
+        $ make linkcheck
 
-   II. Test doctests and code examples::
+   2) Test doctests and code examples::
 
-    $ make doctest
+        $ make doctest
 
-   III. Test html building::
+   3) Test html building::
 
-    $ make html
+        $ make html
 
 
 5. Commit your changes and push your branch to GitHub::
