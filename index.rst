@@ -25,4 +25,5 @@ Extras:
 .. toctree::
    :maxdepth: 2
 
+   contributing
    glossary
