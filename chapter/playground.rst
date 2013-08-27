@@ -37,9 +37,9 @@ try some simple math in our python interpreter:
 
    >>> 1 + 2
    3
-   >>> 1 / 2 * 20
+   >>> 1 / 2.0 * 20
    10.0
-   >>> 1 / (2 * 20)
+   >>> 1 / (2.0 * 20)
    0.025
 
 Great so we have written some simple, but boring, mathematical expressions in
@@ -89,7 +89,7 @@ instead of the number and store the result.
 
 .. doctest::
 
-   >>> speed = distance / 20
+   >>> speed = distance / 20.0
    >>> speed
    5.0
 
