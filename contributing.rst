@@ -81,10 +81,9 @@ Ready to contribute? Here's how to set up `codeforthought` for local development
 
 Now you can make your changes locally.
 
-4. When you're done making changes, check that your changes pass all the tests,
-including testing other Python versions with tox::
+4. When you're done making changes, check that your changes pass all the tests::
 
-    $ tox
+    $ make test
 
 5. Commit your changes and push your branch to GitHub::
 
