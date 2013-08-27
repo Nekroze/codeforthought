@@ -98,7 +98,7 @@ below to run the tests seperately::
 
 5. Commit your changes and push your branch to GitHub::
 
-    $ git add .
+    $ git add --all .
     $ git commit -m "Your detailed description of your changes."
     $ git push origin name-of-your-bugfix-or-feature
 
