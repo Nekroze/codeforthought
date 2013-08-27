@@ -44,7 +44,7 @@ try some simple math in our python interpreter:
 
 Great so we have written some simple, but boring, mathematical expressions in
 python! But the last two examples are a bit different. First, if you didn't
-already know, the symbol for multiplication in programming is the asterisk
+guess already, the symbol for multiplication in programming is the asterisk
 (`*`) character and division is the forward slash (`/`) character. But the last
 two examples are almost exactly the same except for the parenthesis around the
 `1 * 20` expression in the final one.
@@ -52,7 +52,7 @@ two examples are almost exactly the same except for the parenthesis around the
 The reason for the parenthesis is to solve one of the largest problems in
 programming. OK well not specifically. One of the largest problems for new
 programmers other then the syntax of the language they have chosen is
-understanding that the computer does not and can not think the way you do. It
+understanding that the computer does not and can not think the way they do. It
 has no clue what you want to do with your code. This makes it very hard for a
 computer to guess what the right thing to do is, so often it doesn't even try.
 
