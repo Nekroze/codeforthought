@@ -103,3 +103,157 @@ almost anything to a variable and use the variable instead of the actual value.
 Now that distance is stored in a variable all we have to do is change the
 distance value to something else and re-run the speed calculation and it will
 use the new distance! OK not that exciting yet. But it will be.
+
+He's Just Not My Type
+---------------------
+
+There are more things then numbers in the world of programming. And there is
+much more then maths. Actually only very few programming fields are math heavy.
+Mostly we deal with basic data types and manipulating them to become what we
+want.
+
+Generally speaking, there are only a few basic types of data we can use and
+store.
+
+Strings
+~~~~~~~
+
+A string is just text, any kind of text really. Some languages have different
+ways of writing these but mostly a line of text enclosed with quotation marks
+denotes a string.
+
+.. doctest::
+
+   >>> name = "Taylor \"Nekroze\" Lawson"
+
+The above example works perfectly well in python to store a string of my name.
+But there are some important things here. If a string is any text between two
+quotation marks then how do we include the same quotation mark in our text! For
+this we have *Escape Sequences* these are characters that have a backslash
+(`\`) before them and are read as a single letter, rather then two letters. In
+the case I presented we use `\"` to show that we don't want to end the string
+but rather to include a quotation mark inside of it.
+
+Now in python we have the ability to also use single quotation marks as well as
+the double so we could have just as easily done the following:
+
+.. doctest::
+
+   >>> name = 'Taylor "Nekroze" Lawson'
+
+And now it would work fine without using the *Escape Sequence* `\"` because the
+`"` character would not close the string in this case. Which you use is up to
+you in python however some languages the single and double quotation mark means
+different things. 
+
+For example sometimes we differentiate between a string and a character. A
+character is just one letter and a string is a collection of characters. But,
+dynamic languages to the rescue once more, python just takes either one and
+stores is for you without complaining.
+
+Actually quick note, in python we can also easily do multi line strings by
+using a *Triple-Quoted String* which can use either single or double quotes and
+works on multiple lines of text:
+
+.. doctest::
+
+   >>> text = """Triple Quoted Strings:
+   In this multi line string we can use 'single' and "double" quotes and end it
+   on any line with another '''triple''' quote.
+   """
+
+Numbers
+~~~~~~~
+
+In programming we split numbers into different categories. Some languages have
+more categories then others. The main split is between an *Integer* and a
+*Floating Point Number*, which are usually just called *Float*.
+
+An *Integer* is any whole number; `1, 2, 3, 4, 5,` etc. Whereas a *Float* is a
+number that has a decimal point such as `1.1, 1.2, 1.3, 1.4, 1.5,` etc.
+
+There is a difference in these types not just conceptually but in the way the
+computer handles them. *Floats* are harder for the computer to work with and
+take more space to store them. Also *Floats* are a representation of a number,
+they are not always accurate but are usually accurate enough.
+
+Some languages also make a distinction between small and large numbers. Many
+languages can have either an *Integer* or a *Long*. A long is exactly the same
+as an integer however its maximum and minimum values are much large then an
+*Integer*. When it comes to *Float* there is a similarly larger version in many
+languages called *Double*, which just means double the precision thus longer
+decimal point.
+
+Once again in python we don't have to worry about the differences all that
+much, If we want to use any type of number python will just store it keep on
+working.
+
+Booleans
+~~~~~~~~
+
+Booleans are interesting. A *Boolean* value is either `True` or `False`, that
+is all they can store. Think of it like a switch that is either on or it isn't.
+
+Some languages allow many different things to be considered in *Boolean* terms.
+For example in python (and most languages) `0` is equivalent to `False` and
+anything higher then and including `1` is the same as `True`. Later we will see
+other ways to use many types of data as *Booleans* as well.
+
+Collections
+~~~~~~~~~~~
+
+This is where it can get a bit crazy. A collection at its simplest is just a
+way of grouping other data types together to store a collection of "things".
+
+Your basic collection is a *List*, which works exactly as you would expect.
+Just add in your data and it is all stored together and can be manipulated as
+you wish. For example:
+
+.. doctest::
+
+   >>> shades = ["white", "black"]
+   >>> shades.append("grey")
+   >>> shades
+   ["white", "black", "grey"]
+
+This is how we make a *List* in python and add an element to it. Because python
+is a powerful dynamic programming language we can store any types we wont in
+any given collection. However many other programming languages require
+collections to be homogeneous, this means that all values must be the same
+type.
+
+There are many other types of collections. Another very common type is the
+*Dictionary* or *Hash Table*. These allow you to make a map of one data type to
+another, like looking up something in a dictionary.
+
+.. doctest::
+
+   >>> favorite = {"color": "black", "language": "python"}
+   >>> favorite["color"]
+   "black"
+
+We have just created a dictionary, stored it in the `favorite` variable and
+then given it some simple mappings. The second line we look up what the
+dictionary stores under the value `"color"` and retrieve it.
+
+Later on we will look at classes which are kind of like collections but also
+very different.
+
+I Love it When a Plan Comes Together
+------------------------------------
+
+Using just the types of data above and learning how to manipulate them we can
+make just about any piece of software we can imagine. No really. Pretty much
+every computer program ever written uses some form of the above data types
+along with a series of tricks to manipulate and control them. It's kind of
+beautiful if you think about it.
+
+The goal is for you to learn how programming works, not just python. Play
+around with these data types in the python interpreter to get a better feel for
+how they work, because these things are almost entirely universal in
+programming. And once you get the basic concepts behind programming itself, the
+language you use becomes a trivial wrapper around your thoughts. Now that is
+what **Code for Thought** is all about!
+
+In the next chapter we will be looking at using functions and telling the computer how to do a
+specific job.
