@@ -153,14 +153,7 @@ stores is for you without complaining.
 
 Actually quick note, in python we can also easily do multi line strings by
 using a *Triple-Quoted String* which can use either single or double quotes and
-works on multiple lines of text:
-
-.. doctest::
-
-   >>> text = """Triple Quoted Strings:
-   In this multi line string we can use 'single' and "double" quotes and end it
-   on any line with another '''triple''' quote.
-   """
+works on multiple lines of text.
 
 Numbers
 ~~~~~~~
@@ -211,10 +204,10 @@ you wish. For example:
 
 .. doctest::
 
-   >>> shades = ["white", "black"]
-   >>> shades.append("grey")
+   >>> shades = ['white', 'black']
+   >>> shades.append('grey')
    >>> shades
-   ["white", "black", "grey"]
+   ['white', 'black', 'grey']
 
 This is how we make a *List* in python and add an element to it. Because python
 is a powerful dynamic programming language we can store any types we wont in
@@ -228,13 +221,13 @@ another, like looking up something in a dictionary.
 
 .. doctest::
 
-   >>> favorite = {"color": "black", "language": "python"}
-   >>> favorite["color"]
-   "black"
+   >>> favorite = {'color': 'black', 'language': 'python'}
+   >>> favorite['color']
+   'black'
 
 We have just created a dictionary, stored it in the `favorite` variable and
 then given it some simple mappings. The second line we look up what the
-dictionary stores under the value `"color"` and retrieve it.
+dictionary stores under the string `color` and retrieve it.
 
 Later on we will look at classes which are kind of like collections but also
 very different.
