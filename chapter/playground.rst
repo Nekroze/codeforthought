@@ -66,3 +66,38 @@ if you come back in six months will it still make perfect sense?
 But we are getting ahead of ourselves a bit. We use the parenthesis in the last
 one example above because we want to divide 1 by 40. Whereas in the second
 example we are dividing 1 by 2 and then multiplying the result of that by 20.
+
+Can I have a locker next to yours?
+----------------------------------
+
+So we have some basic numbers and we can manipulate these numbers. What we need
+to do now is store them. In programming we use variables to store information
+under a, sometimes, easy to remember name. Instead of just saying `100` we can
+store that number in a variable called `distance` to more easily remember what
+the number does and what it means. Languages have many different ways to create
+and interact with variables. Luckily python is a dynamic language (more on that
+in the future) and we can just give any value any name really simply:
+
+.. doctest::
+
+   >>> distance = 100
+   100
+
+Now that we have stored the speed variable we can use it in calculations
+instead of the number and store the result.
+
+.. doctest::
+
+   >>> speed = distance / 20
+   5.0
+
+The above is just a simple velocity calculation (I promise we will move away
+from maths soon) that uses the stored distance and divides it by `20`, the time
+it took for our imaginary vehicle to travel that distance and then we stored
+the result in the variable called `speed`.
+
+The important thing here is not the maths, it is the fact that you can store
+almost anything to a variable and use the variable instead of the actual value.
+Now that distance is stored in a variable all we have to do is change the
+distance value to something else and re-run the speed calculation and it will
+use the new distance! OK not that exciting yet. But it will be.
