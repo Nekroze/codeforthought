@@ -82,19 +82,21 @@ Ready to contribute? Here's how to set up `codeforthought` for local development
 Now you can make your changes locally.
 
 4. When you're done making changes, check that your changes pass all the tests.
-You can use either the following command to do all tests at once or seperately::
+   You can use either the following command to do all tests at once::
 
     $ make test
 
- I. Test web links::
+   Or seperately:
+
+   I. Test web links::
 
     $ make linkcheck
 
- II. Test doctests and code examples::
+   II. Test doctests and code examples::
 
     $ make doctest
 
- III. Test html building::
+   III. Test html building::
 
     $ make html
 
