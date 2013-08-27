@@ -2,7 +2,7 @@ Playground
 ==========
 
 Put on your sneakers kids, we are going to the playground. When the day is out
-we will rule the school.
+we will rule the school... But less lame sounding.
 
 Firstly we want to fire up the python interpreter. You can use the default
 interpreter perfectly fine and many do. However if you want some extra features
