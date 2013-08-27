@@ -79,7 +79,7 @@ Ready to contribute? Here's how to set up `codeforthought` for local development
 
     $ git checkout -b name-of-your-bugfix-or-feature
 
-Now you can make your changes locally.
+   Now you can make your changes locally.
 
 4. When you're done making changes, check that your changes pass all the tests.
    You can use either the following command to do all tests at once::
