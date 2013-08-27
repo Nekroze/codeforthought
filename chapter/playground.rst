@@ -81,6 +81,7 @@ in the future) and we can just give any value any name really simply:
 .. doctest::
 
    >>> distance = 100
+   >>> distance
    100
 
 Now that we have stored the speed variable we can use it in calculations
@@ -89,6 +90,7 @@ instead of the number and store the result.
 .. doctest::
 
    >>> speed = distance / 20
+   >>> speed
    5.0
 
 The above is just a simple velocity calculation (I promise we will move away
