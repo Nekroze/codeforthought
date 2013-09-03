@@ -27,6 +27,8 @@ interpreter::
 
     >>> exit()
 
+Afterwards you can re-open it the same as before for a new environment.
+
 New kid on the block
 --------------------
 
