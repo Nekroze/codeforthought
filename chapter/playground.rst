@@ -11,7 +11,7 @@ check out bpython_ or install it using the following command::
 
     $ pip install bpython
 
-Now you can open a new python interpreter using either::
+Now open a new python interpreter using either::
 
     $ python
 
@@ -20,6 +20,12 @@ or if you chose to install bpython_::
     $ bpython
 
 .. _bpython: http://bpython-interpreter.org/
+
+If anything goes bad or you want to start again you can close the interpreter
+down using ``CTRL+D`` or executing this command on a new line in the python
+interpreter::
+
+    >>> exit()
 
 New kid on the block
 --------------------
