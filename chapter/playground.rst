@@ -55,7 +55,7 @@ python! But the last two examples are a bit different. First, if you didn't
 guess already, the symbol for multiplication in programming is the asterisk
 (`*`) character and division is the forward slash (`/`) character. But the last
 two examples are almost exactly the same except for the parenthesis around the
-`2.0 * 20` expression in the final one.
+`2.0 * 20`` expression in the final one.
 
 The reason for the parenthesis is to solve one of the largest problems in
 programming. OK well not specifically but give me some slack here. One of the
@@ -82,8 +82,8 @@ Can I have a locker next to yours?
 
 So we have some basic numbers and we can manipulate these numbers. What we need
 to do now is store them. In programming we use variables to store information
-under a, sometimes, easy to remember name. Instead of just saying `100` we can
-store that number in a variable called `distance` to more easily remember what
+under a, sometimes, easy to remember name. Instead of just saying ``100`` we can
+store that number in a variable called ``distance`` to more easily remember what
 the number does and what it means. Languages have many different ways to create
 and interact with variables. Luckily python is a dynamic language (more on that
 in the future) and we can just give any value any name really simply:
@@ -104,9 +104,9 @@ instead of the number and store the result.
    5.0
 
 The above is just a simple velocity calculation (I promise we will move away
-from maths soon) that uses the stored distance and divides it by `20`, the time
+from maths soon) that uses the stored distance and divides it by ``20.0`, the time
 it took for our imaginary vehicle to travel that distance and then we stored
-the result in the variable called `speed`.
+the result in the variable called ``speed`.
 
 The important thing here is not the maths, it is the fact that you can store
 almost anything to a variable and use the variable instead of the actual value.
@@ -141,7 +141,7 @@ But there are some important things here. If a string is any text between two
 quotation marks then how do we include the same quotation mark in our text! For
 this we have *Escape Sequences* these are characters that have a backslash
 (`\`) before them and are read as a single letter, rather then two letters. In
-the case I presented we use `\"` to show that we don't want to end the string
+the case I presented we use ``\"`` to show that we don't want to end the string
 but rather to include a quotation mark inside of it.
 
 Now in python we have the ability to also use single quotation marks as well as
@@ -151,8 +151,8 @@ the double so we could have just as easily done the following:
 
    >>> name = 'Taylor "Nekroze" Lawson'
 
-And now it would work fine without using the *Escape Sequence* `\"` because the
-`"` character would not close the string in this case. Which you use is up to
+And now it would work fine without using the *Escape Sequence* ``\"`` because the
+`"`` character would not close the string in this case. Which you use is up to
 you in python however some languages the single and double quotation mark means
 different things. 
 
@@ -172,8 +172,8 @@ In programming we split numbers into different categories. Some languages have
 more categories then others. The main split is between an *Integer* and a
 *Floating Point Number*, which are usually just called *Float*.
 
-An *Integer* is any whole number; `1, 2, 3, 4, 5,` etc. Whereas a *Float* is a
-number that has a decimal point such as `1.1, 1.2, 1.3, 1.4, 1.5,` etc.
+An *Integer* is any whole number; ``1, 2, 3, 4, 5,`` etc. Whereas a *Float* is a
+number that has a decimal point such as ``1.1, 1.2, 1.3, 1.4, 1.5,`` etc.
 
 There is a difference in these types not just conceptually but in the way the
 computer handles them. *Floats* are harder for the computer to work with and
@@ -194,12 +194,12 @@ working.
 Booleans
 ~~~~~~~~
 
-Booleans are interesting. A *Boolean* value is either `True` or `False`, that
+Booleans are interesting. A *Boolean* value is either ``True`` or ``False`, that
 is all they can store. Think of it like a switch that is either on or it isn't.
 
 Some languages allow many different things to be considered in *Boolean* terms.
-For example in python (and most languages) `0` is equivalent to `False` and
-anything higher then and including `1` is the same as `True`. Later we will see
+For example in python (and most languages) ``0`` is equivalent to ``False`` and
+anything higher then and including ``1`` is the same as ``True`. Later we will see
 other ways to use many types of data as *Booleans* as well.
 
 Collections
@@ -235,9 +235,9 @@ another, like looking up something in a dictionary.
    >>> favorite['color']
    'black'
 
-We have just created a dictionary, stored it in the `favorite` variable and
+We have just created a dictionary, stored it in the ``favorite`` variable and
 then given it some simple mappings. The second line we look up what the
-dictionary stores under the string `color` and retrieve it.
+dictionary stores under the string ``color`` and retrieve it.
 
 Later on we will look at classes which are kind of like collections but also
 very different.
