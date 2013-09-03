@@ -55,14 +55,15 @@ python! But the last two examples are a bit different. First, if you didn't
 guess already, the symbol for multiplication in programming is the asterisk
 (`*`) character and division is the forward slash (`/`) character. But the last
 two examples are almost exactly the same except for the parenthesis around the
-`1 * 20` expression in the final one.
+`2.0 * 20` expression in the final one.
 
 The reason for the parenthesis is to solve one of the largest problems in
-programming. OK well not specifically. One of the largest problems for new
-programmers other then the syntax of the language they have chosen is
-understanding that the computer does not and can not think the way they do. It
-has no clue what you want to do with your code. This makes it very hard for a
-computer to guess what the right thing to do is, so often it doesn't even try.
+programming. OK well not specifically but give me some slack here. One of the
+largest problems for new programmers other then the syntax of the language they
+have chosen is understanding that the computer does not and can not think the
+way they do. It has no clue what you want to do with your code. This makes it
+very hard for a computer to guess what the right thing to do is, so often it
+doesn't even try.
 
 In programming we need to make our intentions clear and preferably clean. Not
 only does a computer have to understand what you mean but so do humans. This
@@ -72,8 +73,9 @@ those commands ourselves. Remember, you may understand what you write today but
 if you come back in six months will it still make perfect sense?
 
 But we are getting ahead of ourselves a bit. We use the parenthesis in the last
-one example above because we want to divide 1 by 40. Whereas in the second
-example we are dividing 1 by 2 and then multiplying the result of that by 20.
+example above because we want to divide 1 by the result of 2.0 multiplied
+by 20. Whereas in the second example we are dividing 1 by 2.0 and then
+multiplying the result of that by 20.
 
 Can I have a locker next to yours?
 ----------------------------------
