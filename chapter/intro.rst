@@ -8,16 +8,18 @@ made by this book that I should get out of the way before we get started.
 Requirements
 ------------
 
-First and foremost we recomend and assume a :term:`POSIX` based environment.
-This means either a *Linux* operating system, like Xubuntu_ which could be
-installed as a virtual machine like VirtualBox_. Alternatively on windows you
-could install Cygwin_, an easy way to get a :term:`POSIX` based environment in
-windows for very few trade offs. All instructions in this book are given as
-command line commands for a :term:`POSIX` environment. There may be equivalents
-for your own setup that can be on the internet.
+First and foremost we recommend and assume a :term:`POSIX` based environment.
+This means either a *Linux* operating system, like Xubuntu_(which could be
+installed as a virtual machine using VirtualBox_ in any operating system) or on
+windows you could install Cygwin_ (an easy way to get a :term:`POSIX` based
+environment in windows for very few trade offs). All instructions in this book
+are given as command line commands for a :term:`POSIX` environment. There may
+be equivalents for your own setup that can be found on the internet with a
+cursory google_ search.
 
-There are many many guides on the internet for how to setup these things, many
-of which explain it all better then I could in the scope of this book.
+There are many many guides on the internet on how to setup these environments,
+many of which explain it all better then I could in the limited scope of this
+book.
 
 Ontop of some kind of :term:`POSIX` based environment you are going to need to
 install :term:`Python` along with the packages called Setuptools_ and
@@ -29,18 +31,18 @@ beginners learning the basic concepts of programming. Setuptools_ and
 In these environments there should be some kind of text/code editor you are
 comfortable with using. Anything will do and you can change your mind and use
 something else at any point. Personally I use Emacs_ which is a great editor
-that has a long tradition in the programming world, although people say its
-learning curve is quite steep. Many others use Vim_ but there are many others
-and if it comes down to it windows notepad will work fine as well... However if
-you want to go with something more like this then give NotepadPlusPlus_ a try.
+that has a long tradition in the programming world, although people say it has
+a steep learning curve. Most programmers prefer Vim_ to Emacs_ but there are
+many alternatives and if it comes down to it windows notepad will work fine...
+However if you want to use notepad give NotepadPlusPlus_ a try. It is similar
+to notepad but with useful programming features.
 
 This can all be done in pure windows obviously however programming in *Linux*
 is just much nicer. If you wish to program in windows only (without Cygwin_)
-you will need everything bar the :term:`POSIX` environment and a text editor
-such as, at least, NotepadPlusPlus_ for editing code and be able to use the
-command prompt to run your code. There may be mention of tools that are
-different to use or nonexistent on windows. Most likely in these cases there
-are alternatives that should not be too hard to find with a good Google_.
+you will still need a text editor and be able to use the command prompt to run
+your code. There may be mention of tools that are different to use or
+nonexistent on windows. Most likely in these cases there are alternatives that
+should not be too hard to find with a quick Google_.
 
 .. _Xubuntu: http://xubuntu.org/
 .. _VirtualBox: https://www.virtualbox.org/
@@ -55,23 +57,23 @@ Structure
 ---------
 
 **Code for Thought** will take you through learning how to write your own code
-from start to finish and around. By the end of this you will understand the
-major concepts behind programming and the tools around it that can help make
-your code better. You will learn how to test your code and make sure it works,
-how to document it so that others can help contribute to your code and learn
-how to contribute to other peoples code and make the world a better place. 
+from start to finish. By the end of this you will understand the major concepts
+behind programming and the tools that will make your code more successful. You
+will learn how to test your code and make sure it works, how to document it so
+that others can help contribute to your code, and learn how to contribute to
+other peoples code and make the world a better place.
 
 OK. maybe you won't be influencing the entire world by the end of this book but
-today, more then ever, the world needs people who can program. Almost everyone
-you know uses computers far more then they would have 15, 10 even 5 years ago.
+today, more than ever, the world needs people who can program. Almost everyone
+you know uses computers far more then they would have 15, 10, even 5 years ago.
 Yet we are all just users, so few care to even think what is behind it all.
-Truth is that in general it is simpler then you think. If more people can
+Truth is that in general it is simpler than you think. If more people can
 innovate and contribute to the growing world of computers then that has to be
-making the world at least a little better. Right!
+making the world at least a little better, right?
 
 This book will move slowly from concept to concept, focusing not just on
-teaching you some information about programming but teaching you how to teach
-yourself to program.
+teaching you some information about programming but actually teaching you how
+to teach yourself to program.
 
 We start with an introduction to the basic concepts of programming with 
 interactive examples. Then we move onto abstracting ideas into functions. Then
@@ -79,10 +81,10 @@ on to data structures. With these basics we will begin to construct simple
 programs you can test out and tinker with. Then we will use example programs
 and code to provide real life usage of the advanced concepts you will be
 learning. As the projects we work with grow in size we will introduce new 
-tools that can greatly help with programming. These include but are not limited
-to things like; version control, unit-testing and documentation.
+tools that can greatly help with programming. These include, but are not limited
+to, things like; version control, unit-testing and documentation.
 
-At the end we will have a more free form discussion (all be it rather one sided)
+At the end we will have a more free form discussion (albeit rather one sided)
 about programming concepts and tools for the future.
 
 Dedication
