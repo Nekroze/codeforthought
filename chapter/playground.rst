@@ -242,8 +242,8 @@ We have just created a dictionary, stored it in the ``favorite`` variable and
 then given it some simple mappings. On the second line we look up what the
 dictionary holds under the string ``color`` and retrieve it.
 
-Later on we will look at classes which are kind of like collections but also
-very different.
+Later on we will look at classes which are kind of like collections, in that 
+they can hold a variety of types at once, but with some tasty additions.
 
 I Love it When a Plan Comes Together
 ------------------------------------
