@@ -252,7 +252,10 @@ Using just the types of data above and learning how to manipulate them we can
 make just about any piece of software we can imagine. No, really. Pretty much
 every computer program ever written uses some form of the above data types
 along with a series of tricks to manipulate and control them. It's kind of
-beautiful if you think about it.
+beautiful if you think about it. Ever single computer in the world; phones,
+laptops, airplanes, traffic lights. At some level these are all controlled
+by code that just fiddles with these basic types. This is why coding is such
+a powerful field, everything uses it somewhere.
 
 The goal is for you to learn how programming works, not just :term:`Python`.
 Play around with these data types in the :term:`Python` :term:`Interpreter` to
