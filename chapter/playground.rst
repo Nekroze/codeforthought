@@ -143,8 +143,8 @@ The above example works perfectly well in :term:`Python` to store a string of my
 But there are some important things here. If a string is any text between two
 quotation marks then how do we include the same quotation mark in our text? For
 this we have *Escape Sequences* these are characters that have a backslash
-(``\\``) before them and are read as a single letter, rather than two letters. In
-the case I presented we use ``\\\"`` to show that we don't want to end the string
+(``\``) before them and are read as a single letter, rather than two letters. In
+the case I presented we use ``\"`` to show that we don't want to end the string
 but rather to include a quotation mark inside of it.
 
 Now in :term:`Python` we have the ability to also use single quotation marks as well as
