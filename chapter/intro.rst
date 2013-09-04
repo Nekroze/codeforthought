@@ -88,6 +88,6 @@ about programming concepts and tools for the future.
 Dedication
 ----------
 
-This book is dedicated to my girlfriend, Elysha. **Code for Thought** is designed to help her
-and others like her to learn code and better understand the second love of my
-life.
+This book is dedicated to my girlfriend, Elysha. **Code for Thought** is
+designed to help her and others like her to learn code and better understand
+the second love of my life.

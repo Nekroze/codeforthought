@@ -4,10 +4,11 @@ Playground
 Put on your sneakers kids, we are going to the playground. When the day is out
 we will rule the school... But less lame sounding, I promise.
 
-Firstly we want to fire up the :term:`Python` :term:`Interpreter`. You can use the default
-:term:`Interpreter` perfectly fine and many do. However if you want some extra features
-to make learning and using the :term:`Python` :term:`Interpreter` easier you might want to
-check out bpython_ or install it using the following command::
+Firstly we want to fire up the :term:`Python` :term:`Interpreter`. You can use
+the default :term:`Interpreter` perfectly fine and many do. However if you want
+some extra features to make learning and using the :term:`Python`
+:term:`Interpreter` easier you might want to check out bpython_ or install it
+using the following command::
 
     $ pip install bpython
 
@@ -105,9 +106,9 @@ instead of the number and store the result.
    5.0
 
 The above is just a simple velocity calculation (I promise we will move away
-from maths soon) that uses the stored distance and divides it by ``20.0`, the time
+from maths soon) that uses the stored distance and divides it by ``20.0``, the time
 it took for our imaginary vehicle to travel that distance and then we stored
-the result in the variable called ``speed`.
+the result in the variable called ``speed``.
 
 The important thing here is not the maths, it is the fact that you can store
 almost anything to a variable and use the variable instead of the actual value.
@@ -152,19 +153,19 @@ the double so we could have just as easily done the following:
 
    >>> name = 'Taylor "Nekroze" Lawson'
 
-And now it would work fine without using the *Escape Sequence* ``\"`` because the
-`"`` character would not close the string in this case. Which you use is up to
-you in :term:`Python` however some languages the single and double quotation mark means
-different things. 
+And now it would work fine without using the *Escape Sequence* ``\"`` because
+the ``"`` character would not close the string in this case. Which you use is
+up to you in :term:`Python` however some languages the single and double
+quotation mark means different things.
 
 For example sometimes we differentiate between a string and a character. A
 character is just one letter and a string is a collection of characters. But,
-dynamic languages to the rescue once more, :term:`Python` just takes either one and
-stores is for you without complaining.
+dynamic languages to the rescue once more, :term:`Python` just takes either one
+and stores is for you without complaining.
 
-Actually quick note, in :term:`Python` we can also easily do multi line strings by
-using a *Triple-Quoted String* which can use either single or double quotes and
-works on multiple lines of text.
+Actually quick note, in :term:`Python` we can also easily do multi line strings
+by using a *Triple-Quoted String* which can use either single or double quotes
+and works on multiple lines of text.
 
 Numbers
 ~~~~~~~
@@ -173,8 +174,8 @@ In programming we split numbers into different categories. Some languages have
 more categories then others. The main split is between an *Integer* and a
 *Floating Point Number*, which are usually just called *Float*.
 
-An *Integer* is any whole number; ``1, 2, 3, 4, 5,`` etc. Whereas a *Float* is a
-number that has a decimal point such as ``1.1, 1.2, 1.3, 1.4, 1.5,`` etc.
+An *Integer* is any whole number; ``1, 2, 3, 4, 5,`` etc. Whereas a *Float* is
+a number that has a decimal point such as ``1.1, 1.2, 1.3, 1.4, 1.5,`` etc.
 
 There is a difference in these types not just conceptually but in the way the
 computer handles them. *Floats* are harder for the computer to work with and
@@ -188,20 +189,21 @@ as an integer however its maximum and minimum values are much large then an
 languages called *Double*, which just means double the precision thus longer
 decimal point.
 
-Once again in :term:`Python` we don't have to worry about the differences all that
-much, If we want to use any type of number :term:`Python` will just store it keep on
-working.
+Once again in :term:`Python` we don't have to worry about the differences all
+that much, If we want to use any type of number :term:`Python` will just store
+it keep on working.
 
 Booleans
 ~~~~~~~~
 
-Booleans are interesting. A *Boolean* value is either ``True`` or ``False`, that
-is all they can store. Think of it like a switch that is either on or it isn't.
+Booleans are interesting. A *Boolean* value is either ``True`` or ``False``,
+that is all they can store. Think of it like a switch that is either on or it
+isn't.
 
 Some languages allow many different things to be considered in *Boolean* terms.
-For example in :term:`Python` (and most languages) ``0`` is equivalent to ``False`` and
-anything higher then and including ``1`` is the same as ``True`. Later we will see
-other ways to use many types of data as *Booleans* as well.
+For example in :term:`Python` (and most languages) ``0`` is equivalent to
+``False`` and anything higher then and including ``1`` is the same as ``True``.
+Later we will see other ways to use many types of data as *Booleans* as well.
 
 Collections
 ~~~~~~~~~~~
@@ -220,11 +222,11 @@ you wish. For example:
    >>> shades
    ['white', 'black', 'grey']
 
-This is how we make a *List* in :term:`Python` and add an element to it. Because :term:`Python`
-is a powerful dynamic programming language we can store any types we wont in
-any given collection. However many other programming languages require
-collections to be homogeneous, this means that all values must be the same
-type.
+This is how we make a *List* in :term:`Python` and add an element to it.
+Because :term:`Python` is a powerful dynamic programming language we can store
+any types we wont in any given collection. However many other programming
+languages require collections to be homogeneous, this means that all values
+must be the same type.
 
 There are many other types of collections. Another very common type is the
 *Dictionary* or *Hash Table*. These allow you to make a map of one data type to
@@ -252,12 +254,12 @@ every computer program ever written uses some form of the above data types
 along with a series of tricks to manipulate and control them. It's kind of
 beautiful if you think about it.
 
-The goal is for you to learn how programming works, not just :term:`Python`. Play
-around with these data types in the :term:`Python` :term:`Interpreter` to get a better feel for
-how they work, because these things are almost entirely universal in
-programming. And once you get the basic concepts behind programming itself, the
-language you use becomes a trivial wrapper around your thoughts. Now that is
-what **Code for Thought** is all about!
+The goal is for you to learn how programming works, not just :term:`Python`.
+Play around with these data types in the :term:`Python` :term:`Interpreter` to
+get a better feel for how they work, because these things are almost entirely
+universal in programming. And once you get the basic concepts behind
+programming itself, the language you use becomes a trivial wrapper around your
+thoughts. Now that is what **Code for Thought** is all about!
 
-In the next chapter we will be looking at using functions and telling the computer how to do a
-specific job.
+In the next chapter we will be looking at using functions and telling the
+computer how to do a specific job.

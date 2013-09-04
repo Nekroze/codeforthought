@@ -43,11 +43,11 @@ Glossary
       A computer program that executes, i.e. performs, instructions written in
       a programming language. An interpreter generally uses one of the
       following strategies for program execution:
-        1. parse the source code and perform its behavior directly
-        2. translate source code into some efficient intermediate
-           representation and immediately execute this 
-        3. explicitly execute stored precompiled code[1] made by a compiler
-           which is part of the interpreter system
+      1. parse the source code and perform its behavior directly
+      2. translate source code into some efficient intermediate representation
+      and immediately execute this
+      3. explicitly execute stored precompiled code made by a compiler which is
+      part of the interpreter system
 
       While generally these are used on text files containing source code many
       interpreters feature a :term:`REPL`.
@@ -57,14 +57,14 @@ Glossary
       programming environment. The user enters one or more expressions (rather
       than an entire compilation unit), which are then evaluated, and the
       results displayed. These provide a simple and easy way to learn a
-      language and experiment with a :term:`Snippet`.
+      language and experiment with :term:`Snippets`.
 
-   Snippet
+   Snippets
       A programming term for a small region of re-usable source code, machine
       code, or text. Ordinarily, these are formally-defined operative units to
-      incorporate into larger programming modules. Snippets are often used to
-      clarify the meaning of an otherwise "cluttered" function, or to minimize
-      the use of repeated code that is common to other functions. The snippets
-      themselves may be either literal text, or written in a simple template
-      language to allow substitutions, such as variable names. :term:`Snippets`
-      are a  small-scale form of copy and paste programming.
+      incorporate into larger programming modules. :term:Snippets are often
+      used to clarify the meaning of an otherwise "cluttered" function, or to
+      minimize the use of repeated code that is common to other functions. The
+      :term:`Snippets` themselves may be either literal text, or written in a
+      simple template language to allow substitutions, such as variable names.
+      :term:`Snippets` are a  small-scale form of copy and paste programming.
