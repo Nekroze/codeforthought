@@ -2,16 +2,16 @@ Playground
 ==========
 
 Put on your sneakers kids, we are going to the playground. When the day is out
-we will rule the school... But less lame sounding.
+we will rule the school... But less lame sounding, I promise.
 
-Firstly we want to fire up the python interpreter. You can use the default
-interpreter perfectly fine and many do. However if you want some extra features
-to make learning and using the python interpreter easier you might want to
+Firstly we want to fire up the :term:`Python` :term:`Interpreter`. You can use the default
+:term:`Interpreter` perfectly fine and many do. However if you want some extra features
+to make learning and using the :term:`Python` :term:`Interpreter` easier you might want to
 check out bpython_ or install it using the following command::
 
     $ pip install bpython
 
-Now open a new python interpreter using either::
+Now open a new :term:`Python` :term:`Interpreter` using either::
 
     $ python
 
@@ -21,9 +21,10 @@ or if you chose to install bpython_::
 
 .. _bpython: http://bpython-interpreter.org/
 
-If anything goes bad or you want to start again you can close the interpreter
-down using ``CTRL+D`` or executing this command on a new line in the python
-interpreter::
+You will be presented with :term:`REPL` environment that you can play around.
+If anything goes bad or you want to start again you can close the
+:term:`Interpreter` down using ``CTRL+D`` or executing this command on a new
+line in the :term:`Python` :term:`Interpreter`::
 
     >>> exit()
 
@@ -39,7 +40,7 @@ The first piece of programming we will be learning is a simple expression.
 Expressions are chunks of code that do something and return results.
 
 There are a great many things you can do with expressions but for now lets just
-try some simple math in our python interpreter:
+try some simple math in our :term:`Python` :term:`Interpreter`:
 
 .. doctest::
 
@@ -51,7 +52,7 @@ try some simple math in our python interpreter:
    0.025
 
 Great so we have written some simple, but boring, mathematical expressions in
-python! But the last two examples are a bit different. First, if you didn't
+:term:`Python`! But the last two examples are a bit different. First, if you didn't
 guess already, the symbol for multiplication in programming is the asterisk
 (`*`) character and division is the forward slash (`/`) character. But the last
 two examples are almost exactly the same except for the parenthesis around the
@@ -85,7 +86,7 @@ to do now is store them. In programming we use variables to store information
 under a, sometimes, easy to remember name. Instead of just saying ``100`` we can
 store that number in a variable called ``distance`` to more easily remember what
 the number does and what it means. Languages have many different ways to create
-and interact with variables. Luckily python is a dynamic language (more on that
+and interact with variables. Luckily :term:`Python` is a dynamic language (more on that
 in the future) and we can just give any value any name really simply:
 
 .. doctest::
@@ -136,7 +137,7 @@ denotes a string.
 
    >>> name = "Taylor \"Nekroze\" Lawson"
 
-The above example works perfectly well in python to store a string of my name.
+The above example works perfectly well in :term:`Python` to store a string of my name.
 But there are some important things here. If a string is any text between two
 quotation marks then how do we include the same quotation mark in our text! For
 this we have *Escape Sequences* these are characters that have a backslash
@@ -144,7 +145,7 @@ this we have *Escape Sequences* these are characters that have a backslash
 the case I presented we use ``\"`` to show that we don't want to end the string
 but rather to include a quotation mark inside of it.
 
-Now in python we have the ability to also use single quotation marks as well as
+Now in :term:`Python` we have the ability to also use single quotation marks as well as
 the double so we could have just as easily done the following:
 
 .. doctest::
@@ -153,15 +154,15 @@ the double so we could have just as easily done the following:
 
 And now it would work fine without using the *Escape Sequence* ``\"`` because the
 `"`` character would not close the string in this case. Which you use is up to
-you in python however some languages the single and double quotation mark means
+you in :term:`Python` however some languages the single and double quotation mark means
 different things. 
 
 For example sometimes we differentiate between a string and a character. A
 character is just one letter and a string is a collection of characters. But,
-dynamic languages to the rescue once more, python just takes either one and
+dynamic languages to the rescue once more, :term:`Python` just takes either one and
 stores is for you without complaining.
 
-Actually quick note, in python we can also easily do multi line strings by
+Actually quick note, in :term:`Python` we can also easily do multi line strings by
 using a *Triple-Quoted String* which can use either single or double quotes and
 works on multiple lines of text.
 
@@ -187,8 +188,8 @@ as an integer however its maximum and minimum values are much large then an
 languages called *Double*, which just means double the precision thus longer
 decimal point.
 
-Once again in python we don't have to worry about the differences all that
-much, If we want to use any type of number python will just store it keep on
+Once again in :term:`Python` we don't have to worry about the differences all that
+much, If we want to use any type of number :term:`Python` will just store it keep on
 working.
 
 Booleans
@@ -198,7 +199,7 @@ Booleans are interesting. A *Boolean* value is either ``True`` or ``False`, that
 is all they can store. Think of it like a switch that is either on or it isn't.
 
 Some languages allow many different things to be considered in *Boolean* terms.
-For example in python (and most languages) ``0`` is equivalent to ``False`` and
+For example in :term:`Python` (and most languages) ``0`` is equivalent to ``False`` and
 anything higher then and including ``1`` is the same as ``True`. Later we will see
 other ways to use many types of data as *Booleans* as well.
 
@@ -219,7 +220,7 @@ you wish. For example:
    >>> shades
    ['white', 'black', 'grey']
 
-This is how we make a *List* in python and add an element to it. Because python
+This is how we make a *List* in :term:`Python` and add an element to it. Because :term:`Python`
 is a powerful dynamic programming language we can store any types we wont in
 any given collection. However many other programming languages require
 collections to be homogeneous, this means that all values must be the same
@@ -231,7 +232,7 @@ another, like looking up something in a dictionary.
 
 .. doctest::
 
-   >>> favorite = {'color': 'black', 'language': 'python'}
+   >>> favorite = {'color': 'black', 'language': ':term:`Python`'}
    >>> favorite['color']
    'black'
 
@@ -251,8 +252,8 @@ every computer program ever written uses some form of the above data types
 along with a series of tricks to manipulate and control them. It's kind of
 beautiful if you think about it.
 
-The goal is for you to learn how programming works, not just python. Play
-around with these data types in the python interpreter to get a better feel for
+The goal is for you to learn how programming works, not just :term:`Python`. Play
+around with these data types in the :term:`Python` :term:`Interpreter` to get a better feel for
 how they work, because these things are almost entirely universal in
 programming. And once you get the basic concepts behind programming itself, the
 language you use becomes a trivial wrapper around your thoughts. Now that is

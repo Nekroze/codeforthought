@@ -20,11 +20,11 @@ There are many many guides on the internet for how to setup these things, many
 of which explain it all better then I could in the scope of this book.
 
 Ontop of some kind of :term:`POSIX` based environment you are going to need to
-install Python_ along with the packages called Setuptools_ and Pip_. Python_
-will be the language we will be learning how to code in. It is a very nice to
-read and concise language that is perfect for begginers learning the basic
-concepts of programming. Setuptools_ and Pip_ will help us to install and
-distribute Python_ packages.
+install :term:`Python` along with the packages called Setuptools_ and
+:term:`Pip`. :term:`Python` will be the language we will be learning how to
+code in. It is a very nice to read and concise language that is perfect for
+beginners learning the basic concepts of programming. Setuptools_ and
+:term:`Pip` will help us to install and distribute :term:`Python` packages.
 
 In these environments there should be some kind of text/code editor you are
 comfortable with using. Anything will do and you can change your mind and use
@@ -39,15 +39,13 @@ is just much nicer. If you wish to program in windows only (without Cygwin_)
 you will need everything bar the :term:`POSIX` environment and a text editor
 such as, at least, NotepadPlusPlus_ for editing code and be able to use the
 command prompt to run your code. There may be mention of tools that are
-different to use or non existant on windows. Most likely in these cases there
+different to use or nonexistent on windows. Most likely in these cases there
 are alternatives that should not be too hard to find with a good Google_.
 
 .. _Xubuntu: http://xubuntu.org/
 .. _VirtualBox: https://www.virtualbox.org/
 .. _Cygwin: http://www.cygwin.com/
-.. _Python: http://python.org/
 .. _Setuptools: https://pypi.python.org/pypi/setuptools/0.9.8
-.. _Pip: https://pypi.python.org/pypi/pip/1.4.1
 .. _Emacs: http://www.gnu.org/software/emacs/
 .. _Vim: http://www.vim.org/
 .. _NotepadPlusPlus: http://notepad-plus-plus.org/
