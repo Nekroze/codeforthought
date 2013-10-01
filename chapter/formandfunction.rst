@@ -91,11 +91,12 @@ Finally we see our brand new function in action by calling ``count_a("A test
 sample")`` return the result ``1``. In our function we only checked for the
 letter ``a`` but we must remember that this is not the same as ``A`` as strings
 are case sensitive. If we wanted to check for both lowercase and uppercase
-``a`` we could change the if statement a little to look like the following::
+``a`` we could change the boolean expression for the if statement to a little
+to look like the following:
 
-.. code-block:: python
+.. highlight:: python
 
-  if letter == "a" or letter == "A":
+  letter == "a" or letter == "A"
 
 Then the if statement has two boolean expressions that make up the larger
 boolean expression. Firstly it checks for the lowercase ``a`` then if that is
