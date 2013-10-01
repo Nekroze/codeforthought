@@ -265,4 +265,4 @@ programming itself, the language you use becomes a trivial wrapper around your
 thoughts. Now that is what **Code for Thought** is all about!
 
 In the next chapter we will be looking at using functions and telling the
-computer how to do a specific job.
+computer how to do a repetitive tasks.
