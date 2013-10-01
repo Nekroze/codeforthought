@@ -63,9 +63,11 @@ equals true then executes its code. In this case that is to add ``1`` to the
 
 When adding one to the ``count`` variable we are using the in place addition
 operator ``+=`` because we want to store the result in the same place. we could
-instead use the following::
+instead use the following:
 
-  count = count + 1
+.. code-block:: python
+
+   count = count + 1
 
 this would do the calculation of whatever is stored in the count variable plus
 one and then store it into the count variable. This does the exact same thing
@@ -90,6 +92,8 @@ sample")`` return the result ``1``. In our function we only checked for the
 letter ``a`` but we must remember that this is not the same as ``A`` as strings
 are case sensitive. If we wanted to check for both lowercase and uppercase
 ``a`` we could change the if statement a little to look like the following::
+
+.. code-block:: python
 
   if letter == "a" or letter == "A":
 
