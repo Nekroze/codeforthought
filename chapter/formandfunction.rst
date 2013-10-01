@@ -25,11 +25,11 @@ following:
 .. doctest::
 
    >>> def count_a(text):
-           count = 0
-           for letter in text:
-               if letter == "a":
-                   count += 1
-           return count
+   ...     count = 0
+   ...     for letter in text:
+   ...         if letter == "a":
+   ...             count += 1
+   ...     return count
    >>> count_a("A test sample")
    1
 
