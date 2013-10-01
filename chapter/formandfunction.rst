@@ -94,7 +94,7 @@ are case sensitive. If we wanted to check for both lowercase and uppercase
 ``a`` we could change the boolean expression for the if statement to a little
 to look like the following:
 
-.. highlight:: python
+.. code-block:: python
 
   letter == "a" or letter == "A"
 
