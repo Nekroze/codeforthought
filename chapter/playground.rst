@@ -234,7 +234,7 @@ another, like looking up something in a dictionary.
 
 .. doctest::
 
-   >>> favorite = {'color': 'black', 'language': ':term:`Python`'}
+   >>> favorite = {'color': 'black', 'language': 'Python'}
    >>> favorite['color']
    'black'
 
