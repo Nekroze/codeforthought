@@ -171,9 +171,9 @@ With this as our new base class we can use the ``move_`` methods from any
 object that inherits from `InSpace`.
 
 This means that we can use the `Cube` class as it was defined above and do
-``Cube.move_x(10)`` to move ``10`` units forward in space and
-``Cube.move_x(-10)`` to move ``10`` units backwards. Note that in the function
-call to move backwards we use ``-10`` for a specific reason.
+``companion.move_x(10)`` to move ``10`` units forward in space and
+``companion.move_x(-10)`` to move ``10`` units backwards. Note that in the
+function call to move backwards we use ``-10`` for a specific reason.
 
 We could have a method for moving forwards and backwards on each axis but that
 may get a little messy. Instead we use a more general approach. When we add the
