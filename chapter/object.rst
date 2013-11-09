@@ -137,3 +137,61 @@ Now we can go about doing cooler things like giving special methods that only
 cubes can use or even better adding methods to `InSpace` that allows every
 object definition that inherits it to easily move around without having to
 update its "children" such as `Cube`. In fact lets do just that!
+
+Using the above example, again, any changes in the code to the `InSpace` class
+will be reflected in any class that inherits from it (it's children)
+accordingly. Because of this we can easily abstract the concepts behind a class
+in its base components. So if everything exists in a three dimensional space it
+might be a good idea to implement things specific to being in such a space in a
+class such as `InSpace` so each object that derives from it does not have to
+implement such things over and over again. This leaves each object inheriting
+from `InSpace` to focus on what it specifically needs to accomplish it's job.
+
+With this in mind let us redefine the `InSpace` class with some methods to help
+us move around in a space.
+
+.. testcode::
+
+   class InSpace(object):
+       def __init__(self, posx=0, posy=0, posz=0):
+           self.posx = posx
+           self.posy = posy
+           self.posz = posz
+
+       def move_x(self, distance):
+           self.posx += distance
+
+       def move_y(self, distance):
+           self.posy += distance
+
+       def move_z(self, distance):
+           self.posz += distance
+
+With this as our new base class we can use the ``move_`` methods from any
+object that inherits from `InSpace`.
+
+This means that we can use ``Cube.move_x(10)`` to move ``10`` units forward in
+space and ``Cube.move_x(-10)`` to move ``10`` units backwards. Note that in the
+function call to move backwards we use ``-10`` for a specific reason. 
+
+We could have a method for moving forwards and backwards on each axis but that
+may get a little messy. Instead we use a more general approach. When we add the
+distance to a variable we use the ``+=`` operator which adds ``distance`` to
+the current value of the variable on the left and then stores the result in the
+same place. Basically the following two statements are identical.
+
+.. testsetup:: iadd
+
+   position = 0
+   distance = 10
+
+.. testcode:: iadd
+
+   position = position + distance
+   position += distance
+
+Now comes the part that we abuse to make the movement three simple methods
+instead of six. When you add a negative number (``-10`` in our case) to another
+number it will actually perform a minus operation. By using this we can just
+hand the move methods positive numbers when we want to move forward on that
+axis and a negative integer when we want to move backwards. Neat huh!
