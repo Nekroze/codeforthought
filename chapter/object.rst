@@ -27,7 +27,7 @@ to store its position in a three dimensional space. For this we simply need to
 store an; X, Y and Z variable to describe its position.
 
 Now enough theory lets have a look at this object in some real code, namely
-:ref:Python.
+:term:`Python`.
 
 .. doctest::
 
@@ -42,7 +42,7 @@ Now enough theory lets have a look at this object in some real code, namely
    >>> companion.size
    10
 
-OK, some basic things to get out of the way. In :ref:Python objects should inherit
+OK, some basic things to get out of the way. In :term:`Python` objects should inherit
 from the base object, this is why after we name our new "class" (the common name
 for an object definition) we place ``(object)`` to denote that this class acts
 like an object.
@@ -55,7 +55,7 @@ constructed and/or destroyed.
 Also often when defining classes/objects and their methods we use the
 terms ``self`` or ``this`` to mean this instance of an object.
 
-In the above example we use the :ref:Python object constructor ``__init__``
+In the above example we use the :term:`Python` object constructor ``__init__``
 that takes an object instance as an argument (``self``) and will give its
 variables their default values, in this case the integer ``0``.
 
@@ -114,9 +114,9 @@ is expected. For this objects constructor we tell it that we want the size
 argument to be required and have the position arguments to default to ``0``
 upon creation/initialization of this object.
 
-In some languages, :ref:Python included, you will need to explicitly call the
-constructor of the "parent" object if you want it to be executed. :ref:Python
-uses the ``super`` function to make this a bit easier in :ref:Python 3 it is
+In some languages, :term:`Python` included, you will need to explicitly call the
+constructor of the "parent" object if you want it to be executed. :term:`Python`
+uses the ``super`` function to make this a bit easier in :term:`Python` 3 it is
 even easier as ``super`` can be called with no arguments to do exactly the same
 thing as above, but people are still using both so I show what works
 everywhere. 
