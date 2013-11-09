@@ -29,6 +29,7 @@ Report bugs at https://github.com/Nekroze/codeforthought/issues.
 
 If you are reporting a bug, please include:
 
+* The [bug] tag in the issue.
 * Your operating system name and version.
 * Any details about your local setup that might be helpful in troubleshooting.
 * Detailed steps to reproduce the bug.
@@ -48,9 +49,9 @@ is open to whoever wants to implement it.
 Write Documentation
 ~~~~~~~~~~~~~~~~~~~
 
-We can always explain something badly or word something poorly. Anyone is
-welcome to help make **Code for Thought** more readable and understanable for
-everyone.
+We can always explain something badly or word something poorly, this paragraph
+is no exception. Anyone is welcome to help make **Code for Thought** more
+readable and understanable for everyone.
 
 Submit Feedback
 ~~~~~~~~~~~~~~~
@@ -60,6 +61,7 @@ https://github.com/Nekroze/codeforthought/issues.
 
 If you are proposing a feature:
 
+* Include the [feature] tag in the issue.
 * Explain in detail how it would work and why this it is better for everyone.
 * Keep the scope as narrow as possible, to make it easier to implement.
 * Remember that this is a volunteer-driven project, and that contributions
