@@ -180,15 +180,10 @@ distance to a variable we use the ``+=`` operator which adds ``distance`` to
 the current value of the variable on the left and then stores the result in the
 same place. Basically the following two statements are identical.
 
-.. testsetup:: iadd
+.. doctest:: 
 
-   position = 0
-   distance = 10
-
-.. testcode:: iadd
-
-   position = position + distance
-   position += distance
+   >>> position = 0 + 10
+   >>> position += 10
 
 Now comes the part that we abuse to make the movement three simple methods
 instead of six. When you add a negative number (``-10`` in our case) to another
