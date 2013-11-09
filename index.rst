@@ -19,6 +19,7 @@ Chapters:
    chapter/intro
    chapter/playground
    chapter/formandfunction
+   chapter/object
 
 Extras:
 ~~~~~~~
