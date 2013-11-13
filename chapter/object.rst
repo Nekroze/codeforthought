@@ -4,10 +4,10 @@ The Object of my Desire
 Now we have data that we can store and functions to easily and repeatable
 manipulate that data but sometimes it is not enough. Many programming languages
 use a paradigm called Object Oriented Programming (commonly referred to as
-"OOP") that allows us to do many cool and complex things in a relatively
+:term:`OOP`) that allows us to do many cool and complex things in a relatively
 elegant way.
 
-The primary feature of OOP is... you guessed it, Objects. An object is a named
+The primary feature of :term:`OOP` is... you guessed it, Objects. An object is a named
 collection of variables that is used as a template to create a data structure
 that performs as specified on demand.
 
@@ -73,7 +73,7 @@ objects, classes, instances, etc. and is usually very easy to find on the web.
 The Layer Cake
 --------------
 
-Another very useful feature of OOP is Inheritance. What this means is that one
+Another very useful feature of :term:`OOP` is Inheritance. What this means is that one
 object definition can be based on another, taking all its variables and methods
 and building on top of them.
 
@@ -203,8 +203,8 @@ you can use to make your code easily re-usable and even extendable.
 Some languages allow a class to inherit from multiple classes at once. In
 statically typed languages there is often :term:`Templating` which allows for
 you to make a generic class that can be used with any object type. There are
-very few problems that cannot be solved using an OOP approach.
+very few problems that cannot be solved using an :term:`OOP` approach.
 
 It sounds complex but this can be super helpful. However just the basics
-outlined here is more then enough to get you into the world of OOP and open up
+outlined here is more then enough to get you into the world of :term:`OOP` and open up
 a lot of possibilities for better code.
