@@ -179,11 +179,12 @@ We could have a method for moving forwards and backwards on each axis but that
 may get a little messy. Instead we use a more general approach. When we add the
 distance to a variable we use the ``+=`` operator which adds ``distance`` to
 the current value of the variable on the left and then stores the result in the
-same place. Basically the following two statements are identical.
+same place. Basically the final two statements are identical.
 
 .. doctest:: 
 
-   >>> position = 0 + 10
+   >>> position = 0
+   >>> position = position + 10
    >>> position += 10
 
 Now comes the part that we abuse to make the movement three simple methods
