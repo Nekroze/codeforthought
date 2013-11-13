@@ -197,8 +197,9 @@ This Isn't Even my Final Form
 -----------------------------
 
 It doesn't end here. Depending on you needs and what you language of choice
-provides you can create powerful base classes or even interfaces that
-you can use to make your code easily re-usable and even extendable.
+provides you can create powerful base classes and object hierarchies or even
+interfaces that you can use to make your code easily re-usable and even
+extendable.
 
 Some languages allow a class to inherit from multiple classes at once. In
 statically typed languages there is often :term:`Templating` which allows for
