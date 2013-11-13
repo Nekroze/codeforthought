@@ -68,3 +68,20 @@ Glossary
       :term:`Snippets` themselves may be either literal text, or written in a
       simple template language to allow substitutions, such as variable names.
       :term:`Snippets` are a  small-scale form of copy and paste programming.
+
+   OOP
+      Object-oriented programming is a programming paradigm that represents
+      concepts as "objects" that have data fields (attributes that describe the
+      object) and associated procedures known as methods. Objects, which are
+      usually instances of classes, are used to interact with one another to
+      design applications and computer programs.
+
+   Templating
+      A programming feature (present in some statically typed languages) that
+      allows generic code to be written that is designed to work with many
+      data types. When a template is instantiated with a type then that type
+      will take the role of a generic variable within the template code as if
+      it where written to use that type. In languages that draw a distinction
+      between the types, for example, of an array of strings versus an array of
+      numbers, :term:`Templating` can be used to write one function that can
+      act on both
