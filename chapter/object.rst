@@ -192,3 +192,19 @@ instead of six. When you add a negative number (``-10`` in our case) to another
 number it will actually perform a minus operation. By using this we can just
 hand the move methods positive numbers when we want to move forward on that
 axis and a negative integer when we want to move backwards. Neat huh!
+
+This Isn't Even my Final Form
+-----------------------------
+
+It doesn't end here. Depending on you needs and what you language of choice
+provides you can create powerful base classes or even interfaces that
+you can use to make your code easily re-usable and even extendable.
+
+Some languages allow a class to inherit from multiple classes at once. In
+statically typed languages there is often :term:`Templating` which allows for
+you to make a generic class that can be used with any object type. There are
+very few problems that cannot be solved using an OOP approach.
+
+It sounds complex but this can be super helpful. However just the basics
+outlined here is more then enough to get you into the world of OOP and open up
+a lot of possibilities for better code.
