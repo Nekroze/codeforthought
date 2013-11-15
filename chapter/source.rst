@@ -10,6 +10,19 @@ stored in a single file. We do not have to, nor should we, keep all of our
 source code in the same file. This also makes redistributing or sharing the
 code very easy.
 
+If you have not noticed, much of the goal in programming is to break down your
+thoughts into smaller concepts and then make them into even smaller pieces of
+code. If you have one massive function that does everything your program needs
+to do then it can often be hard to find and solve problems in this code.
+However, if you break your code into smaller pieces (wherever it makes sense to
+do so) then you are left with small, replaceable, and reusable pieces of the
+puzzle.
+
+Also probably evident, in programming we want to create beautiful code while
+also being super lazy. This means that we tend to favor clean, small code that
+when read is clear about what it does. This is made even easier when the source
+code is not a big jumbled mess.
+
 Pass the Source
 ---------------
 
