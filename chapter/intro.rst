@@ -9,7 +9,7 @@ Requirements
 ------------
 
 First and foremost we recommend and assume a :term:`POSIX` based environment.
-This means either a *Linux* operating system, like Xubuntu_(which could be
+This means either a *Linux* operating system, like Xubuntu_ (which could be
 installed as a virtual machine using VirtualBox_ in any operating system) or on
 windows you could install Cygwin_ (an easy way to get a :term:`POSIX` based
 environment in windows for very few trade offs). All instructions in this book
@@ -90,6 +90,6 @@ about programming concepts and tools for the future.
 Dedication
 ----------
 
-This book is dedicated to my girlfriend, Elysha. **Code for Thought** is
-designed to help her and others like her to learn code and better understand
-the second love of my life.
+This book is dedicated to, Elysha. **Code for Thought** is designed to help her
+and others like her to learn code and better understand the second love of my
+life.
