@@ -21,6 +21,7 @@ Chapters:
    chapter/formandfunction
    chapter/object
    chapter/source
+   chapter/rtfm
 
 Extras:
 ~~~~~~~
