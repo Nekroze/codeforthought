@@ -118,3 +118,70 @@ module A imports module B which imports module A, this can be a real problem
 and some languages will just fail to handle this at all if you are lucky. If
 you are unlucky they may get stuck in a loop or not give you any hint as to why
 it is failing.
+
+Fair Shake of the Source
+------------------------
+
+Some languages do not have an interactive interpreter and must be used by
+compiling/interpreting source files. In :term:`Python` we can do both.
+
+Source files are plain text files that use a specific file extension (the last
+few letters of a file name after a dot, ie. ``filename.txt`` the extension is
+``.txt``) that can be edited using anything that can write a simple text file
+although some editors have better support for programming.
+
+Another important thing about source files is that they usually have some kind
+of entry point. An entry point is usually a function called ``main`` that is
+the start of our programs execution.
+
+:term:`Python` is a little different but every language has its twists. We are
+going to write a simple program that will just say ``Hello World!`` to the
+user. This is a pretty program that is very often used as a first tutorial or
+introduction to a specific programming language.
+
+Source files for :term:`Python` are denoted by the ``.py`` file extension. So
+here is ``greeting.py``
+
+.. testcode::
+
+   def greeter():
+       print("Hello World!")
+
+   if __name__ == "__main__":
+       greeter()
+
+Now if we run ``python greeting.py`` from the command line we will get our
+greeting. Finally we touched on something where :term:`Python` may not be the
+easiest language to demonstrate with. I will give a little explanation.
+
+In most languages there is just some kind of ``main`` function or equivalent
+entry point. Due to the nature of :term:`Python`  we need to jump through a few
+hoops to do the same thing.
+
+We could get the same results if we wrote the file like this.
+
+.. testcode::
+
+   def greeter():
+       print("Hello World!)
+   greeter()
+
+Or, for those of you who are a little sharper, you may have
+noticed we can just make this a one line file and do the same thing still.
+
+.. testcode::
+
+   print("Hello World!")
+
+However we do not do this when we are writing a program. As a single file
+script this works just fine but what if some other source files in our program
+wanted to use ``greeting.py``. Give it a go and see what happens. If we change
+the ``greeting.py`` source code to either of the previous two examples and then
+open a new :term:`Python` interpreter with ``python`` on the command line in
+the same directory as the ``greeting.py`` source file.
+
+If we entered ``import greeting`` it would print out ``Hello World!`` which in
+the second examples case means that just by importing the module the
+``greeter`` function was called. However the first example will only call the
+function we want when that source file is the file being executed by python
+directly as we did in back there.
