@@ -183,5 +183,13 @@ the same directory as the ``greeting.py`` source file.
 If we entered ``import greeting`` it would print out ``Hello World!`` which in
 the second examples case means that just by importing the module the
 ``greeter`` function was called. However the first example will only call the
-function we want when that source file is the file being executed by python
-directly as we did in back there.
+function when that source is the file being executed by python directly as we
+did by calling ``python greeting.py`` making the ``greeting`` module have the
+special ``__name__`` variable equal ``"__main__"``.
+
+In this case it does not really matter if you understand why this happens just
+that you know that with python that is how it is done.
+
+If you are still having problems figuring out when to use which method just
+take a moment to experiment. After all experimenting is the best way to learn
+programming (in my opinion) and is a core concept of this book.
