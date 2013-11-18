@@ -38,3 +38,58 @@ in the source code and are turned into readable documentation for the public.
 This can be done in multiple ways, nowadays the most common way is to generate
 a website out of the docs and publicly publish that website... much the same
 way this book is written. Actually that's exactly how this book is written.
+
+This Title Explains the Content of this Sub-Chapter
+---------------------------------------------------
+
+Not all programming languages agree on a common method of denoting a comment
+but usually it is just a special character and then the rest of the line is
+ignored by the programming language. This means anything after that special
+character can only be seen by viewing the source code, sounds like the perfect
+place to explain things.
+
+Programmers are lazy folk, we do not want to remember everything about our
+code and usually we can't. So what we often do is use a comment to describe
+what some code does, especially when it isn't readily apparent what the code
+really does.
+
+Lets write some comments for our old 3d space example.
+
+.. testcode::
+
+   class InSpace(object):
+
+       def __init__(self, posx=0, posy=0, posz=0):
+           self.posx = posx
+           self.posy = posy
+           self.posz = posz
+
+       def move_x(self, distance):
+           self.posx += distance #Add distance to position x
+
+       def move_y(self, distance):
+           self.posy += distance #Add distance to position y
+
+       def move_z(self, distance):
+           self.posz += distance #Add distance to position z
+
+   class Cube(InSpace):
+
+       def __init__(self, size, posx=0, posy=0, posz=0):
+           #Call the parent constructor.
+           super(Cube, self).__init__(posx, posy, posz)
+           self.size = size
+
+Our code functions the same but we have now added some comments to explain what
+is going on in some of the less obvious areas. In :term:`Python` comments are
+started with the pound (``#``) character. Some languages us a double forward
+slash (``//``) for single line comments and forward slash asterisk (``/*``) to
+denote the start of a multi-line comment and the opposite to end that comment
+(``*/``). While pound only does single line comments in :term:`Python` that
+does not mean that we are missing out. There is wisdom in the way
+:term:`Python` does things, instead of providing multi-line comments it
+provides what it calls "doc strings" which are actually multi-line comments
+however they are also documentation that can be accessed by the user of your
+code and they look like strings. That's probably why they are called "doc
+strings".
+
