@@ -163,8 +163,13 @@ We could get the same results if we wrote the file like this.
 .. testcode::
 
    def greeter():
-       print("Hello World!)
+       print("Hello World!")
    greeter()
+
+.. testoutput::
+   :hide:
+
+   Hello World!
 
 Or, for those of you who are a little sharper, you may have
 noticed we can just make this a one line file and do the same thing still.
@@ -172,6 +177,11 @@ noticed we can just make this a one line file and do the same thing still.
 .. testcode::
 
    print("Hello World!")
+
+.. testoutput::
+   :hide:
+
+   Hello World!
 
 However we do not do this when we are writing a program. As a single file
 script this works just fine but what if some other source files in our program
