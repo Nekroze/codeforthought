@@ -30,3 +30,11 @@ code itself more readable, as often documentation is included in the source
 code itself. Writing or enhancing documentation is also a great way to learn
 how someone elses project works. It is also a good introduction on how to
 contribute to open source projects.
+
+Documentation generally comes in two forms; comments and docs. Comments are
+pieces of text that are inside the source code itself and is only viewed by
+people looking at that code. Docs are sometimes, but not always, also included
+in the source code and are turned into readable documentation for the public.
+This can be done in multiple ways, nowadays the most common way is to generate
+a website out of the docs and publicly publish that website... much the same
+way this book is written. Actually that's exactly how this book is written.
