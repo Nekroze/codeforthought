@@ -93,3 +93,55 @@ however they are also documentation that can be accessed by the user of your
 code and they look like strings. That's probably why they are called "doc
 strings".
 
+Unlike Humans, Chuck Norris Doesn't Need Documentation
+======================================================
+
+When learning how to use a piece of software one of the most useful things that
+it can provide is clear, up to date, documentation. Lets go straight to writing
+some documentation.
+
+In :term:`Python` we can use a "doc string" to document a piece of code like a
+class, a function, or a method.
+
+Lets add some documentation to our 3d space code.
+
+
+.. testcode::
+
+   class InSpace(object):
+       """
+       Describes an object in a 3d environment.
+       """
+       def __init__(self, posx=0, posy=0, posz=0):
+           self.posx = posx
+           self.posy = posy
+           self.posz = posz
+
+       def move_x(self, distance):
+           """Move on the X axis."""
+           self.posx += distance #Add distance to position x
+
+       def move_y(self, distance):
+           """Move on the Y axis."""
+           self.posy += distance #Add distance to position y
+
+       def move_z(self, distance):
+           """Move on the Z axis."""
+           self.posz += distance #Add distance to position z
+
+   class Cube(InSpace):
+       """
+       A Cube in 3d space.
+       
+       Stores a single size variable for the size of all edges.
+       """
+       def __init__(self, size, posx=0, posy=0, posz=0):
+           #Call the parent constructor.
+           super(Cube, self).__init__(posx, posy, posz)
+           self.size = size
+
+:term:`Python` has a handy ``help`` function that can output doc strings for
+anything that is given to it. This is the basis of documentation in
+:term:`Python` and can be used in more complex ways in the future. For example,
+tools can be used that get all of the doc strings in your code and turn them
+into a website, or file, that can be shared with the world.
