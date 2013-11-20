@@ -40,7 +40,7 @@ a website out of the docs and publicly publish that website... much the same
 way this book is written. Actually that's exactly how this book is written.
 
 This Title Explains the Content of this Sub-Chapter
----------------------------------------------------
+===================================================
 
 Not all programming languages agree on a common method of denoting a comment
 but usually it is just a special character and then the rest of the line is
