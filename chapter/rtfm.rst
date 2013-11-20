@@ -39,7 +39,7 @@ This can be done in multiple ways, nowadays the most common way is to generate
 a website out of the docs and publicly publish that website... much the same
 way this book is written. Actually that's exactly how this book is written.
 
-This Title Explains the Content of this Sub-Chapter
+This Title Explains the Content of This Sub-Chapter
 ===================================================
 
 Not all programming languages agree on a common method of denoting a comment
