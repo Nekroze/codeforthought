@@ -145,3 +145,6 @@ anything that is given to it. This is the basis of documentation in
 :term:`Python` and can be used in more complex ways in the future. For example,
 tools can be used that get all of the doc strings in your code and turn them
 into a website, or file, that can be shared with the world.
+
+For now give this example a go. Put the new documented 3d space classes into a
+file and try using the ``help`` function to view the documentation.
