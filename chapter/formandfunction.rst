@@ -37,6 +37,17 @@ in this section.
 Firstly we defined a function called ``count_a`` and told it to take one
 parameter called ``text``. This parameter is our input that we will count.
 
+In programming we have the concept of code blocks, these are a section of code
+that belongs to some other code. Some languages use braces such as ``{}`` to
+say that anything in between those symbols is a code block. However
+:term:`Python` uses white space indentation do denote a code block. This means
+that anything on the same indentation level is part of that code block and
+further indentations denote nested code blocks. After defining our ``count_a``
+function we need to give it a block of code that defines what that function
+will do when it is called latter. Code blocks are used whenever we need to
+define what a specific thing should do when it is called; the code of a
+function, what to do in a loop, code to execute if a condition is met, etc.
+
 The next line should be rather familiar by now. We are simply creating a
 integer variable to store the count, which starts at zero.
 
