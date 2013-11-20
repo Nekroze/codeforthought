@@ -130,6 +130,11 @@ few letters of a file name after a dot, ie. ``filename.txt`` the extension is
 ``.txt``) that can be edited using anything that can write a simple text file
 although some editors have better support for programming.
 
+We could start an entire war over which editor is the best to use, we covered
+some of the common choices in the :ref:`Introduction` and left it to you to
+research and decide what you like the best. Experiment away, that's what we are
+here to do.
+
 Another important thing about source files is that they usually have some kind
 of entry point. An entry point is usually a function called ``main`` that is
 the start of our programs execution.
