@@ -60,8 +60,8 @@ But the last two examples are almost exactly the same except for the
 parenthesis around the ``2.0 * 20`` expression in the final one.
 
 The reason for the parenthesis is to solve one of the largest problems in
-programming. OK well not specifically but give but bare with me for a moment.
-One of the largest problems for new programmers, other then the syntax of the
+programming. OK well not specifically but bare with me for a moment.
+One of the largest problems for new programmers, other than the syntax of the
 language they have chosen, is understanding that the computer does not (and can
 not) think the way they do. It has no clue what you want to do with your code.
 This makes it very hard for a computer to figure out what the right thing to do
@@ -108,7 +108,7 @@ instead of the number and store the result.
 
 The above is just a simple velocity calculation (I promise we will move away
 from maths soon) that uses the stored ``distance`` variable we set earlier and
-divides it by ``20.0``(the time it took for our imaginary vehicle to travel
+divides it by ``20.0`` (the time it took for our imaginary vehicle to travel
 that distance) and then stored the result in the variable called ``speed``.
 
 The important thing here is not the maths, it is the fact that you can store
@@ -164,8 +164,8 @@ character is just one letter and a string is a collection of characters. But,
 dynamic languages to the rescue once more, :term:`Python` just takes either one
 and stores is for you without complaining.
 
-Actually quick note, in :term:`Python` we can also easily do multi line strings
-by using a *Triple-Quoted String* which can use either single or double quotes
+In :term:`Python` we can also easily do multi line strings by using a 
+*Triple-Quoted String* which can use either single or double quotes
 and works on multiple lines of text.
 
 Numbers
