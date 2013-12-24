@@ -85,3 +85,13 @@ Glossary
       between the types, for example, of an array of strings versus an array of
       numbers, :term:`Templating` can be used to write one function that can
       act on both
+
+   Namespace
+      In computer programming, namespaces are typically employed for the purpose of grouping symbols
+      and identifiers around a particular functionality.
+
+   C/C++
+      In computing, C is a general-purpose programming language initially developed by Dennis
+      Ritchie between 1969 and 1973 at AT&T Bell Labs. C++, developed by Bjarne Stroustrup starting
+      in 1979 at Bell Labs, was originally named C with Classes, adding object oriented
+      features, such as classes, and other enhancements to the C programming language.
