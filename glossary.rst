@@ -62,7 +62,7 @@ Glossary
    Snippets
       A programming term for a small region of re-usable source code, machine
       code, or text. Ordinarily, these are formally-defined operative units to
-      incorporate into larger programming modules. :term:Snippets are often
+      incorporate into larger programming modules. :term:`Snippets` are often
       used to clarify the meaning of an otherwise "cluttered" function, or to
       minimize the use of repeated code that is common to other functions. The
       :term:`Snippets` themselves may be either literal text, or written in a
