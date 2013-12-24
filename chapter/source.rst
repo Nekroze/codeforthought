@@ -208,3 +208,42 @@ that you know that with python that is how it is done.
 If you are still having problems figuring out when to use which method just
 take a moment to experiment. After all experimenting is the best way to learn
 programming (in my opinion) and is a core concept of this book.
+
+Packages
+--------
+
+After all this we now have a greeting module but what if we want to step up the complexity. This is
+where packages come in. When there are lots of source files it can be easier to sort things into a
+hierarchy of directories. For example in a game we might want to have a package for everything to do
+with drawing to the screen and a different package for all the networking code. So what we can do is
+have a directory structure that looks like this::
+
+    ./
+    ./game.py
+    ./graphics/
+    ./graphics/screen.py
+    ./network/
+    ./network/client.py
+
+With this directory structure ``graphics`` and ``network`` are packages that contain the ``screen``
+and ``client`` modules (respectively) and as such we can use these modules by saying ``from graphics
+import screen`` or with :term:`Python` and some other languages we can even get something specific
+from our modules:
+
+.. code-block:: python
+
+  from graphics.screen import draw
+
+It is worth noting that the example file structure given above will not work in :term:`Python`
+because it wont just accept any directory as a package. In :term:`Python` a directory that should be
+considered a package must have a file in it called ``__init__.py`` that can be empty. This file is
+what is executed when you import just the package, for example ``import graphics`` would run any
+code in ``__init__.py`` before continuing. This is specific to python but the general package
+concept holds true even for languages that don't support modern "packages". For example in
+:term:`C/C++` instead of giving the package/module names you give the file path:
+
+.. code-block:: c
+
+  #include "graphics/screen.h"
+
+Using packages can make code maintenance much easier and the entire project easier to understand.
