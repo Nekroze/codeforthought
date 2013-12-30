@@ -46,6 +46,15 @@ your code. There may be mention of tools that are different to use or
 nonexistent on windows. Most likely in these cases there are alternatives that
 should not be too hard to find with a quick Google_.
 
+If you do not want to deal with the recommended environment outlined above you can follow much of
+this book using the REPL_ website which offers a half decent python interpreter right in your
+browser. Much of the code examples in this book are written in :term:`Python` because it is a clear,
+and easy to follow, programming language that follows many of the universal programming concepts and
+REPL_ offers a great solution without making any changes to your computer. The website offers a
+:term:`Python` 2.7 interpreter and a nice clean text editor on the side that can interact with the
+interpreter all inside your browser. However later chapters in this book will fall out of the scope
+of the REPL_ website.
+
 .. _Xubuntu: http://xubuntu.org/
 .. _VirtualBox: https://www.virtualbox.org/
 .. _Cygwin: http://www.cygwin.com/
@@ -54,6 +63,7 @@ should not be too hard to find with a quick Google_.
 .. _Vim: http://www.vim.org/
 .. _NotepadPlusPlus: http://notepad-plus-plus.org/
 .. _Google: http://www.google.com
+.. _REPL: http://repl.it/languages/Python
 
 Structure
 ---------
