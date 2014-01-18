@@ -72,7 +72,7 @@ only does a computer have to understand what you mean but so do other humans.
 This speaks to a balance that we need to find between telling the computer
 exactly what to do to get it right, and being able to actually articulate, and
 understand those commands ourselves. Remember that while you may understand
-what you write today but if you come back in six months will it still make
+what you write today if you come back in six months will it still make
 perfect sense?
 
 But we are getting ahead of ourselves a bit. We use the parenthesis in the last
