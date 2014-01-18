@@ -192,7 +192,10 @@ decimal point.
 
 Once again in :term:`Python` we don't have to worry about the differences all
 that much, If we want to use any type of number :term:`Python` will just store
-it and keep on working.
+it and keep on working. However there is one thing worth noting when working
+with different types of numbers. Because a both a Long and a Float have more
+information then a simple Integer can hold if we change the types of a value
+around we may end up loosing some information in the process.
 
 Booleans
 ~~~~~~~~
