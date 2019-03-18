@@ -1,9 +1,7 @@
 Code for Thought
 ================
 
-This, that I loosely call a book, is meant to guide your first steps into the
-world of programming and abstracting thoughts and reality into easy to
-understand code.
+This, that I loosely call a book, is meant to guide your first steps into the world of programming and abstracting thoughts and reality into code.
 
 .. image:: https://travis-ci.org/Nekroze/codeforthought.png?branch=master
    :target: https://travis-ci.org/Nekroze/codeforthought
