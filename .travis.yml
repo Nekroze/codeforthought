@@ -4,12 +4,12 @@ language: python
 
 python:
   - "2.7"
-  - "3.3"
+  - "3.6"
 
-# command to install dependencies, e.g. pip install -r requirements.txt --use-mirrors
+# command to install dependencies, e.g. pip install -r requirements.txt
 install: 
-  - pip install -r requirements.txt --use-mirrors
-  - pip install sphinx --use-mirrors
+  - pip install sphinx
+  - pip install -r requirements.txt
 
 # command to run tests, e.g. python setup.py test
 script:
